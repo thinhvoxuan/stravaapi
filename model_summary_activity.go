@@ -20,7 +20,7 @@ type SummaryActivity struct {
 	ExternalId string `json:"external_id,omitempty"`
 	// The identifier of the upload that resulted in this activity
 	UploadId int64 `json:"upload_id,omitempty"`
-	Athlete *MetaAthlete `json:"athlete,omitempty"`
+	Athlete *SummaryAthlete `json:"athlete,omitempty"`
 	// The name of the activity
 	Name string `json:"name,omitempty"`
 	// The activity's distance, in meters
